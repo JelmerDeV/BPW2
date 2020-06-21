@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7488562811520554135
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7488562811520554137}
+  - component: {fileID: 7488562811520554134}
+  - component: {fileID: 7488562811520554136}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7488562811520554137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7488562811520554135}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9093075, y: -3.3777633, z: -0.078015305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7488562811520554134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7488562811520554135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a342f33893e16433d8e49e62de6c08a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  small1: {fileID: 0}
+  small2: {fileID: 0}
+  normal1: {fileID: 0}
+  smooth: {fileID: 6200000, guid: 7b577670ebdaa460cb028c55c6ee2050, type: 2}
+  rough: {fileID: 6200000, guid: bf6a555a79ed844b4a9d1203b8085480, type: 2}
+  activatedColor: {r: 0.9411765, g: 0.39215687, b: 0.39215687, a: 1}
+  deActivatedColor: {r: 0.9411765, g: 0.39215687, b: 0.39215687, a: 0.78431374}
+  mainCam: {fileID: 0}
+  currstate: 0
+--- !u!114 &7488562811520554136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7488562811520554135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6f06b6822704e989475e4ea414d0fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadePanel: {fileID: 0}
+  sceneToLoad: IntroScene
